@@ -1,0 +1,78 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+a {
+	list-style: none;
+	text-decoration: none;
+}
+
+ul, figure {
+	margin: 0;
+	padding: 0;
+}
+
+h4, p {
+	margin: 0;
+}
+
+.header {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.header__link__social {
+	width: 35px;
+	height: 35px;
+}
+
+.brand {
+	width: 96%;
+	height: 250px;
+	margin: 0 auto;
+}
+
+.brand__logo {
+	height: inherit;
+	width: inherit;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu__link {
+	margin: 0 40px;
+	color: #111;
+}
+
+.menu__link:last-child {
+	margin-right: 0;
+}
+
+.articles {
+	display: grid;
+	grid-template-columns: repeat(4, 320px);
+	grid-gap: 5px;
+	justify-content: center;
+}
+
+.article {
+	border: 1px solid #c0c0c0;
+	background-color: #e5e5e5;
+}
+
+.article__device {
+	width: 318px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.article__device__image {
+	height: inherit;
+	width: inherit;
+	vertical-align: top;
+}
+
+.article__info {
+}
